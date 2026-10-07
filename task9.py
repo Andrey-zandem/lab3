@@ -1,4 +1,5 @@
 class FileReader:
+    """Чтение данных из файла"""
     def __init__(self, filename: str) -> None:
         self.filename = filename
 
